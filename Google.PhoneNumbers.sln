@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Google.PhoneNumbers", "Google.PhoneNumbers\Google.PhoneNumbers.csproj", "{2777D3F8-14CE-484C-8F5F-6A691E160EB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Google.PhoneNumbers.Test", "Google.PhoneNumbers.Test\Google.PhoneNumbers.Test.csproj", "{160EC4BC-9165-417D-9DE8-285799AC6DC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Google.PhoneNumbers.GenerateData", "Google.PhoneNumbers.GenerateData\Google.PhoneNumbers.GenerateData.csproj", "{D2D459D4-A45A-485D-B1AB-AF1416C65816}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		StageData|Any CPU = StageData|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2777D3F8-14CE-484C-8F5F-6A691E160EB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2777D3F8-14CE-484C-8F5F-6A691E160EB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2777D3F8-14CE-484C-8F5F-6A691E160EB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2777D3F8-14CE-484C-8F5F-6A691E160EB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2777D3F8-14CE-484C-8F5F-6A691E160EB2}.StageData|Any CPU.ActiveCfg = StageData|Any CPU
+		{2777D3F8-14CE-484C-8F5F-6A691E160EB2}.StageData|Any CPU.Build.0 = StageData|Any CPU
+		{160EC4BC-9165-417D-9DE8-285799AC6DC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{160EC4BC-9165-417D-9DE8-285799AC6DC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{160EC4BC-9165-417D-9DE8-285799AC6DC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{160EC4BC-9165-417D-9DE8-285799AC6DC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{160EC4BC-9165-417D-9DE8-285799AC6DC3}.StageData|Any CPU.ActiveCfg = StageData|Any CPU
+		{160EC4BC-9165-417D-9DE8-285799AC6DC3}.StageData|Any CPU.Build.0 = StageData|Any CPU
+		{D2D459D4-A45A-485D-B1AB-AF1416C65816}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2D459D4-A45A-485D-B1AB-AF1416C65816}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2D459D4-A45A-485D-B1AB-AF1416C65816}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2D459D4-A45A-485D-B1AB-AF1416C65816}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2D459D4-A45A-485D-B1AB-AF1416C65816}.StageData|Any CPU.ActiveCfg = StageData|Any CPU
+		{D2D459D4-A45A-485D-B1AB-AF1416C65816}.StageData|Any CPU.Build.0 = StageData|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
