@@ -28,8 +28,7 @@ Google.PhoneNumbers project.
 ### Google.PhoneNumbers.Test
 Port of libphonenumber tests to C# - right now all tests are passing
 
-Coding Style (it's very unlike C#)
--------------------------------
+### Coding Style (it's very unlike C#)
 Patches are welcome. Plus it'll be easier to patch over future
 revisions if the code base is similar
 
