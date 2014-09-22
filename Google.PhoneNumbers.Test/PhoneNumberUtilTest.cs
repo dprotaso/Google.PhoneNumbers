@@ -1489,18 +1489,6 @@ namespace Google.PhoneNumbers.Test
 
             Assert.AreEqual(PhoneNumberUtil.ValidationResult.TOO_LONG,
                 phoneUtil.isPossibleNumberWithReason(INTERNATIONAL_TOLL_FREE_TOO_LONG));
-
-            // Try with number that we don't have metadata for.
-            PhoneNumber adNumber = new PhoneNumber();
-            adNumber.setCountryCode(376).setNationalNumber(12345L);
-            Assert.AreEqual(PhoneNumberUtil.ValidationResult.IS_POSSIBLE,
-                phoneUtil.isPossibleNumberWithReason(adNumber));
-            adNumber.setCountryCode(376).setNationalNumber(1L);
-            Assert.AreEqual(PhoneNumberUtil.ValidationResult.TOO_SHORT,
-                phoneUtil.isPossibleNumberWithReason(adNumber));
-            adNumber.setCountryCode(376).setNationalNumber(123456789012345678L);
-            Assert.AreEqual(PhoneNumberUtil.ValidationResult.TOO_LONG,
-                phoneUtil.isPossibleNumberWithReason(adNumber));
         }
 
         [TestMethod]
@@ -2735,7 +2723,7 @@ namespace Google.PhoneNumbers.Test
             Assert.AreEqual("+37612345", phoneUtil.format(adNumber, PhoneNumberUtil.PhoneNumberFormat.E164));
             Assert.AreEqual("12345", phoneUtil.format(adNumber, PhoneNumberUtil.PhoneNumberFormat.NATIONAL));
             Assert.AreEqual(PhoneNumberUtil.PhoneNumberType.UNKNOWN, phoneUtil.getNumberType(adNumber));
-            Assert.IsTrue(phoneUtil.isValidNumber(adNumber));
+            Assert.IsFalse(phoneUtil.isValidNumber(adNumber));
 
             // Test dialing a US number from within Andorra.
             Assert.AreEqual("00 1 650 253 0000",
