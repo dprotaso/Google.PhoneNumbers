@@ -476,6 +476,11 @@ public class PhoneNumberUtil {
   // first.
   private readonly IDictionary<int, List<String>> countryCallingCodeToRegionCodeMap;
 
+  public IDictionary<int, List<String>> GetCountryCallingCodeToRegionCodeMap
+  {
+      get { return countryCallingCodeToRegionCodeMap; }
+  }
+
   // The set of regions that share country calling code 1.
   // There are roughly 26 regions.
   // We set the initial capacity of the HashSet to 35 to offer a load factor of roughly 0.75.
