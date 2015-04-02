@@ -45,7 +45,7 @@ public class PhoneNumberUtil {
     {
         public Stream loadMetadata(string metadataFileName)
         {
-            var assembly = typeof(PhoneNumberUtil).GetTypeInfo().Assembly;
+            var assembly = typeof(PhoneNumberUtil).Assembly;
             return assembly.GetManifestResourceStream(metadataFileName);
         }
     }

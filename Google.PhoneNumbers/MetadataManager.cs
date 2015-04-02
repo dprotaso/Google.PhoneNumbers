@@ -50,7 +50,7 @@ internal class MetadataManager {
   private static void loadAlternateFormatsMetadataFromFile(int countryCallingCode)
   {
     var resourceName = ALTERNATE_FORMATS_FILE_PREFIX + "_" + countryCallingCode;
-    var assembly = typeof(MetadataManager).GetTypeInfo().Assembly;
+    var assembly = typeof(MetadataManager).Assembly;
 
       try
       {
@@ -87,7 +87,7 @@ internal class MetadataManager {
 
   private static void loadShortNumberMetadataFromFile(String regionCode) {
     var resourceName = SHORT_NUMBER_METADATA_FILE_PREFIX + "_" + regionCode;
-    var assembly = typeof(MetadataManager).GetTypeInfo().Assembly;
+    var assembly = typeof(MetadataManager).Assembly;
 
     try
     {
