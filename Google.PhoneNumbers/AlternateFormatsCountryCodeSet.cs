@@ -30,6 +30,7 @@ public class AlternateFormatsCountryCodeSet {
     ISet<int> countryCodeSet = new HashSet<int>();
 
     countryCodeSet.Add(971);
+    countryCodeSet.Add(54);
     countryCodeSet.Add(43);
     countryCodeSet.Add(61);
     countryCodeSet.Add(359);
@@ -48,6 +49,7 @@ public class AlternateFormatsCountryCodeSet {
     countryCodeSet.Add(36);
     countryCodeSet.Add(62);
     countryCodeSet.Add(972);
+    countryCodeSet.Add(91);
     countryCodeSet.Add(81);
     countryCodeSet.Add(855);
     countryCodeSet.Add(94);
@@ -63,6 +65,7 @@ public class AlternateFormatsCountryCodeSet {
     countryCodeSet.Add(381);
     countryCodeSet.Add(7);
     countryCodeSet.Add(66);
+    countryCodeSet.Add(676);
     countryCodeSet.Add(90);
     countryCodeSet.Add(255);
     countryCodeSet.Add(380);

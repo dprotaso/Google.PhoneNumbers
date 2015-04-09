@@ -65,6 +65,7 @@
     <EmbeddedResource Include="Data\PhoneNumberAlternateFormatsProto_49" />
     <EmbeddedResource Include="Data\PhoneNumberAlternateFormatsProto_505" />
     <EmbeddedResource Include="Data\PhoneNumberAlternateFormatsProto_506" />
+    <EmbeddedResource Include="Data\PhoneNumberAlternateFormatsProto_54" />
     <EmbeddedResource Include="Data\PhoneNumberAlternateFormatsProto_55" />
     <EmbeddedResource Include="Data\PhoneNumberAlternateFormatsProto_58" />
     <EmbeddedResource Include="Data\PhoneNumberAlternateFormatsProto_595" />
@@ -73,12 +74,14 @@
     <EmbeddedResource Include="Data\PhoneNumberAlternateFormatsProto_63" />
     <EmbeddedResource Include="Data\PhoneNumberAlternateFormatsProto_66" />
     <EmbeddedResource Include="Data\PhoneNumberAlternateFormatsProto_675" />
+    <EmbeddedResource Include="Data\PhoneNumberAlternateFormatsProto_676" />
     <EmbeddedResource Include="Data\PhoneNumberAlternateFormatsProto_679" />
     <EmbeddedResource Include="Data\PhoneNumberAlternateFormatsProto_7" />
     <EmbeddedResource Include="Data\PhoneNumberAlternateFormatsProto_81" />
     <EmbeddedResource Include="Data\PhoneNumberAlternateFormatsProto_84" />
     <EmbeddedResource Include="Data\PhoneNumberAlternateFormatsProto_855" />
     <EmbeddedResource Include="Data\PhoneNumberAlternateFormatsProto_90" />
+    <EmbeddedResource Include="Data\PhoneNumberAlternateFormatsProto_91" />
     <EmbeddedResource Include="Data\PhoneNumberAlternateFormatsProto_94" />
     <EmbeddedResource Include="Data\PhoneNumberAlternateFormatsProto_95" />
     <EmbeddedResource Include="Data\PhoneNumberAlternateFormatsProto_971" />
