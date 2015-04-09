@@ -58,14 +58,16 @@ public class CountryCodeToRegionCodeMapForTesting {
     listWithRegionCode.Add("CX");
     countryCodeToRegionCodeMap.Add(61, listWithRegionCode);
 
+    listWithRegionCode = new List<String>(4);
+    listWithRegionCode.Add("US");
+    listWithRegionCode.Add("BB");
+    listWithRegionCode.Add("BS");
+    listWithRegionCode.Add("CA");
+    countryCodeToRegionCodeMap.Add(1, listWithRegionCode);
+
     listWithRegionCode = new List<String>(1);
     listWithRegionCode.Add("BR");
     countryCodeToRegionCodeMap.Add(55, listWithRegionCode);
-
-    listWithRegionCode = new List<String>(2);
-    listWithRegionCode.Add("US");
-    listWithRegionCode.Add("BS");
-    countryCodeToRegionCodeMap.Add(1, listWithRegionCode);
 
     listWithRegionCode = new List<String>(1);
     listWithRegionCode.Add("BY");

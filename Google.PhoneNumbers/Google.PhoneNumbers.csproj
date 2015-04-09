@@ -2,7 +2,7 @@
 <Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
-    <MinimumVisualStudioVersion>11.0</MinimumVisualStudioVersion>
+    <MinimumVisualStudioVersion>10.0</MinimumVisualStudioVersion>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{2777D3F8-14CE-484C-8F5F-6A691E160EB2}</ProjectGuid>
@@ -13,8 +13,8 @@
     <DefaultLanguage>en-US</DefaultLanguage>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <TargetFrameworkProfile>Profile259</TargetFrameworkProfile>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Profile328</TargetFrameworkProfile>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -65,6 +65,7 @@
     <EmbeddedResource Include="Data\PhoneNumberAlternateFormatsProto_49" />
     <EmbeddedResource Include="Data\PhoneNumberAlternateFormatsProto_505" />
     <EmbeddedResource Include="Data\PhoneNumberAlternateFormatsProto_506" />
+    <EmbeddedResource Include="Data\PhoneNumberAlternateFormatsProto_54" />
     <EmbeddedResource Include="Data\PhoneNumberAlternateFormatsProto_55" />
     <EmbeddedResource Include="Data\PhoneNumberAlternateFormatsProto_58" />
     <EmbeddedResource Include="Data\PhoneNumberAlternateFormatsProto_595" />
@@ -73,12 +74,14 @@
     <EmbeddedResource Include="Data\PhoneNumberAlternateFormatsProto_63" />
     <EmbeddedResource Include="Data\PhoneNumberAlternateFormatsProto_66" />
     <EmbeddedResource Include="Data\PhoneNumberAlternateFormatsProto_675" />
+    <EmbeddedResource Include="Data\PhoneNumberAlternateFormatsProto_676" />
     <EmbeddedResource Include="Data\PhoneNumberAlternateFormatsProto_679" />
     <EmbeddedResource Include="Data\PhoneNumberAlternateFormatsProto_7" />
     <EmbeddedResource Include="Data\PhoneNumberAlternateFormatsProto_81" />
     <EmbeddedResource Include="Data\PhoneNumberAlternateFormatsProto_84" />
     <EmbeddedResource Include="Data\PhoneNumberAlternateFormatsProto_855" />
     <EmbeddedResource Include="Data\PhoneNumberAlternateFormatsProto_90" />
+    <EmbeddedResource Include="Data\PhoneNumberAlternateFormatsProto_91" />
     <EmbeddedResource Include="Data\PhoneNumberAlternateFormatsProto_94" />
     <EmbeddedResource Include="Data\PhoneNumberAlternateFormatsProto_95" />
     <EmbeddedResource Include="Data\PhoneNumberAlternateFormatsProto_971" />
@@ -321,6 +324,7 @@
     <Compile Include="AlternateFormatsCountryCodeSet.cs" />
     <Compile Include="AsYouTypeFormatter.cs" />
     <Compile Include="CountryCodeToRegionCodeMap.cs" />
+    <Compile Include="InvalidDataException.cs" />
     <Compile Include="LeniencyExtensions.cs" />
     <Compile Include="Logger.cs" />
     <Compile Include="MetadataLoader.cs" />

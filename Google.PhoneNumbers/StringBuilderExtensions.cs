@@ -46,5 +46,15 @@ namespace Google.PhoneNumbers
         {
             return builder.ToString().LastIndexOf(value, StringComparison.Ordinal);
         }
+
+        public static StringBuilder Insert(this StringBuilder builder, int index, char value)
+        {
+            return builder.Insert(index, value.ToString());
+        }
+
+        public static StringBuilder Insert(this StringBuilder builder, int index, int value)
+        {
+            return builder.Insert(index, value.ToString());
+        }
     }
 }
